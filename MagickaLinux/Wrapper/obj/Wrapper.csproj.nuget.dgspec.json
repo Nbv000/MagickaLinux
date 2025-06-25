@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/nbv000/MagickaLinux/Wrapper/Wrapper.csproj": {}
+  },
+  "projects": {
+    "/home/nbv000/MagickaLinux/Wrapper/Wrapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nbv000/MagickaLinux/Wrapper/Wrapper.csproj",
+        "projectName": "Wrapper",
+        "projectPath": "/home/nbv000/MagickaLinux/Wrapper/Wrapper.csproj",
+        "packagesPath": "/home/nbv000/.nuget/packages/",
+        "outputPath": "/home/nbv000/MagickaLinux/Wrapper/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nbv000/MagickaLinux/Wrapper/nuget.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/home/nbv000/MagickaLinux/nuget-local": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MonoGame.Framework.DesktopGL": {
+              "target": "Package",
+              "version": "[3.8.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+/home/nbv000/MagickaLinux/Wrapper/obj/Debug/net8.0/Wrapper.csproj.AssemblyReference.cache
+/home/nbv000/MagickaLinux/Wrapper/obj/Debug/net8.0/Wrapper.GeneratedMSBuildEditorConfig.editorconfig
+/home/nbv000/MagickaLinux/Wrapper/obj/Debug/net8.0/Wrapper.AssemblyInfoInputs.cache
+/home/nbv000/MagickaLinux/Wrapper/obj/Debug/net8.0/Wrapper.AssemblyInfo.cs
+/home/nbv000/MagickaLinux/Wrapper/obj/Debug/net8.0/Wrapper.csproj.CoreCompileInputs.cache

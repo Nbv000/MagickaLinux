@@ -1,0 +1,10 @@
+Версия MSBuild 17.8.27+3ab07f0cf для .NET
+/home/nbv000/MagickaLinux/Wrapper/Wrapper.csproj(1,1): error MSB4025: не удалось загрузить файл проекта. Data at the root level is invalid. Line 1, position 1.
+
+Ошибка сборки.
+
+/home/nbv000/MagickaLinux/Wrapper/Wrapper.csproj(1,1): error MSB4025: не удалось загрузить файл проекта. Data at the root level is invalid. Line 1, position 1.
+    Предупреждений: 0
+    Ошибок: 1
+
+Прошло времени 00:00:00.07

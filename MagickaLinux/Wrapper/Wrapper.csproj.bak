@@ -1,0 +1,28 @@
+cat > Wrapper.csproj << 'EOF'
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RollForward>Major</RollForward>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <TieredCompilation>false</TieredCompilation>
+    <!-- Entry point -->
+    <StartupObject>Magicka.Wrapper.Program</StartupObject>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- MonoGame runtime -->
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.*" />
+    <!-- Все декомпилированные .cs -->
+    <Compile Include="..\Decompiled\**\*.cs" />
+  </ItemGroup>
+
+</Project>
+EOF
+

@@ -1,0 +1,7 @@
+Версия MSBuild 17.8.27+3ab07f0cf для .NET
+  Determining projects to restore...
+Попытка отменить сборку...
+/usr/lib/dotnet/sdk/8.0.117/NuGet.targets(156,5): warning MSB4220: ожидание отмены выполняемой в текущий момент задачи "RestoreTask". [/home/nbv000/MagickaLinux/Wrapper/Wrapper.csproj]
+/usr/lib/dotnet/sdk/8.0.117/NuGet.targets(156,5): warning MSB4220: ожидание отмены выполняемой в текущий момент задачи "RestoreTask". [/home/nbv000/MagickaLinux/Wrapper/Wrapper.csproj]
+/usr/lib/dotnet/sdk/8.0.117/NuGet.targets(156,5): warning MSB4220: ожидание отмены выполняемой в текущий момент задачи "RestoreTask". [/home/nbv000/MagickaLinux/Wrapper/Wrapper.csproj]
+/usr/lib/dotnet/sdk/8.0.117/NuGet.targets(156,5): warning MSB4220: ожидание отмены выполняемой в текущий момент задачи "RestoreTask". [/home/nbv000/MagickaLinux/Wrapper/Wrapper.csproj]
